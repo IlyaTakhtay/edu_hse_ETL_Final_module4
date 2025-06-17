@@ -1,0 +1,10 @@
+ydb `
+--endpoint grpcs://ydb.serverless.yandexcloud.net:2135 `
+--database /ru-central1/b1giqfq7h5v5gt47n85u/etndi5k581tku52na734 `
+--sa-key-file "Y:\authorized_key.json" `
+import file csv `
+--path transactions_v2 `
+--delimiter "," `
+--skip-rows 1 `
+--null-value "" `
+social_media_vs_productivity_id.csv
